@@ -1,0 +1,21 @@
+.search-bar__input {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.search-bar__button-search {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-top: 1px solid $gray-bootstrap;
+  border-left: 1px solid $gray-bootstrap;
+  border-bottom: 1px solid $gray-bootstrap;
+  border-right: none;
+  &:hover {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top: 1px solid $gray-bootstrap;
+    border-left: 1px solid $gray-bootstrap;
+    border-bottom: 1px solid $gray-bootstrap;
+    border-right: none;
+  }
+}

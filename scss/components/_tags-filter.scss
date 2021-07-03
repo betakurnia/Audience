@@ -1,0 +1,28 @@
+.tags-filter__list-group {
+  & > * {
+    border: none !important;
+    cursor: pointer;
+  }
+
+  & > *:nth-child(odd) {
+    background-color: #f3f5f9;
+  }
+
+  & > *:nth-last-child(1) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 20px;
+  }
+
+  & > *:hover:not(:nth-last-child(1)) {
+    background-color: #dcecee;
+
+    & .contact__icon {
+      display: block;
+    }
+  }
+}
+
+.contact__icon {
+  display: none;
+}

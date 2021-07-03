@@ -1,0 +1,13 @@
+.contact-filter__container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-filter__container {
+    height: 100vh;
+    max-width: 320px;
+    position: fixed;
+  }
+}

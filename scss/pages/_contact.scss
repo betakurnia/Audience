@@ -1,0 +1,21 @@
+.contact__left-sidebar {
+  width: 100%;
+  max-width: 360px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact__right-sidebar {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .contact__left-sidebar {
+    max-width: 100%;
+  }
+  .contact__right-sidebar {
+    margin-top: 64px;
+  }
+}

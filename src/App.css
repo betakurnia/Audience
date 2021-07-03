@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
-}
+.utility_font-size-24px {
+  font-size: 24px; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+a:hover {
+  color: #09a391 !important; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: bold !important; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b4c0d3;
+  opacity: 1;
+  /* Firefox */ }
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b4c0d3; }
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b4c0d3; }
+
+.contact-filter__container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column; }
+
+@media screen and (min-width: 768px) {
+  .contact-filter__container {
+    height: 100vh;
+    max-width: 320px;
+    position: fixed; } }
+
+.tags-filter__list-group > * {
+  border: none !important;
+  cursor: pointer; }
+
+.tags-filter__list-group > *:nth-child(odd) {
+  background-color: #f3f5f9; }
+
+.tags-filter__list-group > *:nth-last-child(1) {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 20px; }
+
+.tags-filter__list-group > *:hover:not(:nth-last-child(1)) {
+  background-color: #dcecee; }
+  .tags-filter__list-group > *:hover:not(:nth-last-child(1)) .contact__icon {
+    display: block; }
+
+.contact__icon {
+  display: none; }
+
+.header-contact__plus-button {
+  border-radius: 45%;
+  height: 36px;
+  width: 36px;
+  display: flex;
   align-items: center;
+  justify-content: center; }
+
+.contact-credential-left__container {
+  display: flex;
+  align-items: center; }
+  .contact-credential-left__container > * {
+    margin-right: 16px; }
+
+.contact-credential-right__container {
+  display: flex;
+  align-items: center; }
+  .contact-credential-right__container > * {
+    margin-right: 20px; }
+
+.contact-credential__tag-button {
+  border-radius: 16px;
+  height: 30px !important;
+  display: flex;
+  align-items: center;
+  font-size: 14px; }
+
+.contact-credential__plus-button {
+  border-radius: 45%;
+  height: 30px !important;
+  width: 30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  font-size: 14px; }
 
-.App-link {
-  color: #61dafb;
-}
+.search-bar__input {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.search-bar__button-search {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-top: 1px solid #b4c0d3;
+  border-left: 1px solid #b4c0d3;
+  border-bottom: 1px solid #b4c0d3;
+  border-right: none; }
+  .search-bar__button-search:hover {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top: 1px solid #b4c0d3;
+    border-left: 1px solid #b4c0d3;
+    border-bottom: 1px solid #b4c0d3;
+    border-right: none; }
+
+.search-all-contact__export-all-button {
+  border-radius: 12px; }
+
+.message-count-filter__button {
+  background-color: #f3f5f9;
+  border-radius: 12px; }
+
+.contact__left-sidebar {
+  width: 100%;
+  max-width: 360px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.contact__right-sidebar {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+@media (max-width: 768px) {
+  .contact__left-sidebar {
+    max-width: 100%; }
+  .contact__right-sidebar {
+    margin-top: 64px; } }
+
+.text-black {
+  color: #000000; }
+
+.text-primary {
+  color: #09a391 !important; }
+
+.btn-primary {
+  background-color: #09a391 !important; }
+
+.bg-gray {
+  background-color: #f3f5f9 !important; }
+
+.text-grey {
+  color: #f3f5f9 !important; }
+
+.text-grey-secondary {
+  color: #b4c0d3 !important; }
